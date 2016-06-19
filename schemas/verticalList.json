@@ -1,0 +1,15 @@
+{
+  "id": "verticallist",
+  "name": "verticallist",
+  "title": "JSON Schemas for verticallist",
+  "type": "object",
+  "properties": {
+    "border": {
+      "type": "boolean",
+      "name": "border"
+    },
+    "groups": {
+      "$ref": "groups"
+    }
+  }
+}

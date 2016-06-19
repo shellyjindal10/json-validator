@@ -1,0 +1,25 @@
+{
+  "id": "groups",
+  "name": "groups",
+  "title": "JSON Schemas for groups",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "name": "title"
+    },
+    "subTitle": {
+      "type": "string",
+      "name": "subTitle"
+    },
+    "link": {
+      "$ref": "link"
+    },
+    "logo": {
+      "$ref": "logo"
+    },
+    "lineItems": {
+      "$ref": "lineItems"
+    }
+  }
+}

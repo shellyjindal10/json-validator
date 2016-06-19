@@ -1,0 +1,26 @@
+{
+    "id": "content",
+    "name": "content",
+    "description": "Content area over the image containing buttons , headings and sub headings",
+    "type": "object",
+    "properties": {
+      "primary": {
+        "$ref": "item"
+      },
+      "secondary": {
+        "$ref": "item"
+      },
+      "tertiary": {
+        "$ref": "item"
+      },
+      "quaternary": {
+        "$ref": "image"
+      },
+      "background": {
+        "$ref": "background"
+      },
+      "align": {
+        "$ref": "alignment"
+      }
+    }
+  }

@@ -1,0 +1,9 @@
+{
+    "id": "images",
+    "name": "images",
+    "title": "JSON Schemas for Image array",
+    "type": "array",
+    "items": {
+      "$ref":"imagepromo"
+    }
+}

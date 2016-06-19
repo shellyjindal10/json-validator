@@ -1,0 +1,9 @@
+{
+  "id": "tabs",
+  "name": "Tabs",
+  "title": "JSON Schemas for home page Tabs",
+  "type": "array",
+  "items": {
+    "ref": "tab"
+  }
+}

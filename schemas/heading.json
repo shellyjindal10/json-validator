@@ -1,0 +1,17 @@
+{
+    "id":"heading",
+    "name":"heading",
+    "title":"JSON Schemas for multi image heading",
+    "type":"object",
+    "properties":{
+      "title":{
+        "type":"string",
+        "name":"title"
+      },
+      "color":{
+        "type":"string",
+        "name":"color",
+        "pattern":"^#(?:[0-9a-fA-F]{3}){1,2}$"
+      }
+    }
+}

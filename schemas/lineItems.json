@@ -1,0 +1,9 @@
+{
+  "id": "lineItems",
+  "name": "lineItems",
+  "title": "JSON Schemas for lineItems",
+  "type": "array",
+  "items": {
+    "$ref": "lineitem"
+  }
+}

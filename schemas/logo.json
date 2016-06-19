@@ -1,0 +1,11 @@
+{
+  "id": "logo",
+  "name": "logo",
+  "description": "logo properties",
+  "type": "object",
+  "properties": {
+    "image": {
+      "$ref": "image"
+    }
+  }
+}

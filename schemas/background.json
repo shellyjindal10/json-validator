@@ -1,0 +1,13 @@
+{
+    "id": "background",
+    "name": "background",
+    "description": "Background for the content area ",
+    "type": "object",
+    "properties": {
+      "color": {
+        "type": "string",
+        "name": "color",
+        "pattern": "^#(?:[0-9a-fA-F]{3}){1,2}$"
+      }
+    }
+}

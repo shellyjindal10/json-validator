@@ -1,0 +1,22 @@
+ {
+    "id": "imagePromo",
+    "name": "imagePromo",
+    "title": "JSON Schemas for home page Promo image",
+    "type": "object",
+    "properties": {
+      "href": {
+        "type": "string",
+        "name": "href",
+        "format": "uri"
+      },
+      "image": {
+        "$ref": "image"
+      },
+      "border": {
+        "$ref": "border"
+      },
+      "content": {
+        "$ref": "content"
+      }
+    }
+}

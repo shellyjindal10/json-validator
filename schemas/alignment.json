@@ -1,0 +1,16 @@
+{
+    "id": "alignment",
+    "name": "alignment",
+    "description": "Horizontal and Vertical alignment",
+    "type": "object",
+    "properties": {
+      "horizontal": {
+        "type": "string",
+        "name": "horizontal"
+      },
+      "vertical": {
+        "type": "string",
+        "name": "vertical"
+      }
+    }
+}

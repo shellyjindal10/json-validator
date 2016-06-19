@@ -1,0 +1,12 @@
+{
+  "id": "tab",
+  "name": "tab",
+  "title": "JSON Schemas for home page Tab",
+  "description": "Each Tab Property",
+  "type": "object",
+  "required": [ "title", "content"],
+    "properties": {
+      "title": {"type":"string","name":"title","description": "Title of each Tab"},
+      "content": {"type":"string","name":"content","description": "Content of each Tab"}
+    }
+}

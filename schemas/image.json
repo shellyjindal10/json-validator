@@ -1,0 +1,21 @@
+{
+  "id": "image",
+  "name": "image",
+  "description": "image properties",
+  "type": "object",
+  "required": [
+    "src",
+    "alt"
+  ],
+  "properties": {
+    "src": {
+      "type": "string",
+      "name": "src",
+      "format": "uri"
+    },
+    "alt": {
+      "type": "string",
+      "name": "alt"
+    }
+  }
+}

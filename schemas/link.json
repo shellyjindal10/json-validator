@@ -1,0 +1,16 @@
+{
+  "id": "link",
+  "name": "link",
+  "description": "link properties",
+  "type": "object",
+  "properties": {
+    "href": {
+      "type": "string",
+      "name": "href"
+    },
+    "title": {
+      "type": "string",
+      "name": "title"
+    }
+  }
+}

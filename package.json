@@ -1,0 +1,19 @@
+{
+  "name": "json validation",
+  "version": "1.0.0",
+  "description": "Json validations",
+  "main": "package.json",
+  "scripts": {
+    "gulp json-validation": "gulp json-validations"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shellyjindal10/json-validator.git"
+  },
+  "author": "shellyjindal10",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jsonlint": "^1.1.2"
+  }
+}

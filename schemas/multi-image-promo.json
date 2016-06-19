@@ -1,0 +1,18 @@
+
+  {
+    "id":"multiImagePromo",
+    "name":"multiImagePromo",
+    "title":"JSON Schemas for multi image promo",
+    "type":"object",
+    "properties":{
+      "heading":{
+        "$ref":"heading"
+      },
+      "background":{
+        "$ref":"background"
+      },
+      "image":{
+        "$ref":"images"
+      }
+    }
+  }
